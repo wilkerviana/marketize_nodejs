@@ -1,0 +1,56 @@
+.banner {
+  color: white;
+  padding: 5em 0;
+  background-image: url(../images/backgrounds/bg-carts_blue.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  & .brand img {
+    max-width: 290px;
+    width: 80%;
+  }
+}
+.banner:after {
+  display: none;
+  content: url(../images/icons/icon-mouse.png);
+  position: absolute;
+  height: 1.9em;
+  width: 1.125em;
+  bottom: 0;
+  left: calc(50% - 1.1em / 2);
+  animation: icon-scroll 1s infinite ease-out alternate both;
+}
+
+.carousel {
+  margin: 0 auto;
+  padding: 10vh 5vh;
+  & h1 {
+    font-size: 2em;
+    font-weight: bold;
+    & strong {
+      color: $yellow-darkest;
+    }
+  }
+  & p {
+    font-family: $asap-font;
+    font-size: 1.325em;
+    font-weight: 400;
+  }
+  & .btn-info {
+    background: $yellow-darkest;
+    display: block;
+    margin: 2em auto 1em;
+    @extend .btn-fill;
+    & > a {
+      color: $blue-darkest;
+      text-decoration: none;
+    }
+    &:hover {
+      background: $orange-lightest;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+footer.foo {
+  background: $blue-darkest;
+  // @media screen and (min-width: 1300px) {
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  // }
+  & .brand {
+    & > img {
+      display: block;
+      margin: 0 auto;
+    }
+    & span {
+      color: white;
+      display: block;
+      font-size: 0.8em;
+      margin: 1.6em 0;
+      text-align: center;
+    }
+  }
+}
+
+.menu-footer {
+  margin: 0.6em auto;
+  vertical-align: top;
+  text-align: center;
+  & .title-footer {
+    color: $yellow-darkest;
+    font-family: $asap-font;
+    font-size: 1em;
+    font-style: italic;
+  }
+  & ul {
+    list-style: none;
+    padding: 0;
+  }
+  & li {
+    margin-top: 1em;
+    & a {
+      color: white;
+    }
+  }
+}
+
+.social-icons {
+  margin: 0 auto;
+
+  width: 110px;
+
+  & .social-link {
+    margin: 0 0.8em;
+  }
+}

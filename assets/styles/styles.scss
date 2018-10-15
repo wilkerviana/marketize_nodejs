@@ -1,0 +1,39 @@
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/fonts";
+
+@import "./components/buttons";
+@import "./components/titles";
+@import "./components/texts";
+@import "./components/forms";
+@import "./components/cards";
+@import "./components/animations";
+
+@import "./modules/banner";
+@import "./modules/footer";
+
+body {
+  background: rgb(233, 233, 233);
+}
+
+.navbar {
+  background: $orange-lightest;
+  & .navbar-brand {
+    max-width: 180px;
+  }
+  & .nav-link {
+    color: white !important;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  & .nav-item.active .nav-link {
+    color: $blue-darkest !important;
+  }
+}
+
+.foo-padding {
+  padding: {
+    top: 5%;
+    bottom: 5%;
+  }
+}

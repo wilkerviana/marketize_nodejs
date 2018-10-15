@@ -1,0 +1,9 @@
+.social-icons {
+  display: block;
+  margin: 0 auto;
+  width: 105px;
+  & .social-link {
+    display: inline-block;
+    margin: 0 0.625em;
+  }
+}

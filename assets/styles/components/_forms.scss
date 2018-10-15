@@ -1,0 +1,43 @@
+.form-group {
+  margin: 0.2em auto;
+  & label {
+    color: $purple-darkest;
+    font-size: 1em !important;
+    font-weight: bold;
+    margin-left: 0.8em;
+
+    text-transform: uppercase;
+  }
+  & input {
+    background: #f6f6f6;
+    border-radius: 0.9em;
+    border: 0;
+    color: $blue-darkest;
+    font-size: 1em;
+
+    margin: 0.8em auto;
+
+    padding: 0.4em 1em;
+  }
+  & small {
+    font-family: $asap-font;
+    font-size: 0.8em;
+    font-style: italic;
+  }
+}
+.btn-form {
+  background: $blue-lightest;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+
+  margin: 1em auto;
+
+  width: 110px;
+  @extend .btn-expand;
+  &:hover {
+    background: $orange-lightest;
+  }
+}

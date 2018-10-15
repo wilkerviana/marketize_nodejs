@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i|Catamaran:300,400,500,600,700,800");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Catamaran", sans-serif;
+  font-size: medium;
+}
+
+.foo {
+  padding: 8vh 0;
+}
+
+.btn-fill, .carousel .btn-info {
+  border: 0;
+  border-radius: 2em;
+  font-size: 1.075em;
+  font-family: "Asap", sans-serif;
+  font-weight: 600;
+  padding: 0.425em 1.4em;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.btn-expand, .btn-form {
+  border-radius: 0.6em;
+  padding: 0.6em 1em;
+  font-size: 0.875em;
+  font-family: "Asap", sans-serif;
+}
+
+.title {
+  color: #0e3ead;
+  font-family: "Asap", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+
+.form-group {
+  margin: 0.2em auto;
+}
+.form-group label {
+  color: #43246c;
+  font-size: 1em !important;
+  font-weight: bold;
+  margin-left: 0.8em;
+  text-transform: uppercase;
+}
+.form-group input {
+  background: #f6f6f6;
+  border-radius: 0.9em;
+  border: 0;
+  color: #061539;
+  font-size: 1em;
+  margin: 0.8em auto;
+  padding: 0.4em 1em;
+}
+.form-group small {
+  font-family: "Asap", sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.btn-form {
+  background: #0e3ead;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+  margin: 1em auto;
+  width: 110px;
+}
+.btn-form:hover {
+  background: #f76b1c;
+}
+
+.card {
+  border-radius: 0.5em;
+}
+
+@keyframes icon-scroll {
+  0% {
+    bottom: 2.5em;
+  }
+  50% {
+    bottom: 2.5em;
+  }
+  100% {
+    bottom: 0.8em;
+  }
+}
+.banner {
+  color: white;
+  padding: 5em 0;
+  background-image: url(../images/backgrounds/bg-carts_blue.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.banner .brand img {
+  max-width: 290px;
+  width: 80%;
+}
+
+.banner:after {
+  display: none;
+  content: url(../images/icons/icon-mouse.png);
+  position: absolute;
+  height: 1.9em;
+  width: 1.125em;
+  bottom: 0;
+  left: calc(50% - 1.1em / 2);
+  animation: icon-scroll 1s infinite ease-out alternate both;
+}
+
+.carousel {
+  margin: 0 auto;
+  padding: 10vh 5vh;
+}
+.carousel h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.carousel h1 strong {
+  color: #f2b02a;
+}
+.carousel p {
+  font-family: "Asap", sans-serif;
+  font-size: 1.325em;
+  font-weight: 400;
+}
+.carousel .btn-info {
+  background: #f2b02a;
+  display: block;
+  margin: 2em auto 1em;
+}
+.carousel .btn-info > a {
+  color: #061539;
+  text-decoration: none;
+}
+.carousel .btn-info:hover {
+  background: #f76b1c;
+}
+
+footer.foo {
+  background: #061539;
+}
+footer.foo .brand > img {
+  display: block;
+  margin: 0 auto;
+}
+footer.foo .brand span {
+  color: white;
+  display: block;
+  font-size: 0.8em;
+  margin: 1.6em 0;
+  text-align: center;
+}
+
+.menu-footer {
+  margin: 0.6em auto;
+  vertical-align: top;
+  text-align: center;
+}
+.menu-footer .title-footer {
+  color: #f2b02a;
+  font-family: "Asap", sans-serif;
+  font-size: 1em;
+  font-style: italic;
+}
+.menu-footer ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-footer li {
+  margin-top: 1em;
+}
+.menu-footer li a {
+  color: white;
+}
+
+.social-icons {
+  margin: 0 auto;
+  width: 110px;
+}
+.social-icons .social-link {
+  margin: 0 0.8em;
+}
+
+body {
+  background: #e9e9e9;
+}
+
+.navbar {
+  background: #f76b1c;
+}
+.navbar .navbar-brand {
+  max-width: 180px;
+}
+.navbar .nav-link {
+  color: white !important;
+  font-size: 1em;
+  font-weight: bold;
+}
+.navbar .nav-item.active .nav-link {
+  color: #061539 !important;
+}
+
+.foo-padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */

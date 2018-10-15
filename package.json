@@ -1,0 +1,40 @@
+{
+  "name": "node_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilker Andrade Viana",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap-material-design": "^4.1.1",
+    "browser-sync": "^2.26.0",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mysql": "^2.16.0",
+    "node-sass": "^4.9.3",
+    "webpack-stream": "^5.1.1"
+  },
+  "devDependencies": {
+    "gulp-ejs": "^3.2.0"
+  }
+}
